@@ -1,0 +1,17 @@
+[alias]
+        co = checkout
+        st = status
+        ci = commit
+        br = branch
+        ll = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+        dc = diff --cached
+[user]
+        name = Jerome Sicat
+        email = jerome@smugmug.com
+[push]
+        default = simple
+[filter "lfs"]
+        clean = git-lfs clean -- %f
+        smudge = git-lfs smudge -- %f
+        process = git-lfs filter-process
+        required = true
