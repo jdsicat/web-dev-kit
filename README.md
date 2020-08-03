@@ -1,8 +1,7 @@
 # web-dev-kit
 Collections of scripts, settings and configurations for web development
 
-- Zsh
-- OhMyZsh
+- Zsh / OhMyZsh: https://ohmyz.sh/
 - zsh autosuggestions: https://github.com/zsh-users/zsh-autosuggestions
 
 ## Git
