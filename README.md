@@ -1,5 +1,5 @@
 # web-dev-kit
-Collections of scripts, settings and configurations for web development\
+Collections of scripts, settings and configurations for web development
 
 - Zsh
 - OhMyZsh
